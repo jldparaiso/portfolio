@@ -1,33 +1,65 @@
-
-.jumbotron{
-	border:5px solid gray;
-	background:rgba(128,128,128,0.15);
-	margin-top: 50px;
+*{
+	font-family: 'Poppins', sans-serif;
 }
 
-.portfolio{
+body{
+	background-image: url(../images/bg-img3.jpg);
+	background-size: cover;
+}
+
+/*header*/
+
+.head-logo{
+	width:150px;
+	height: 45px;
+
+}
+
+.nav-container{
+	background-color: white;
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.nav-link{
+	color: gray;
+	font-weight: bold;
+}
+
+/*landing page*/
+#home{
 	height: 100vh;
 }
 
-#skills{
-	height: 100vh;
+.banner{
+	position: relative;	
+	bottom:400px;
+	color: white;
+	text-align: right;	
 }
 
-.fadeInLeft{
-	/*animation-delay: 2s;*/
-}
 
-.progress{
-	background-color: black;
-}
 /*tablet*/
-@media only screen and (min-width: 401px) and 
-(max-width: 960px){
-
+@media only screen and (min-width: 421px) and 
+(max-width: 960px)
+{
+	.banner{
+	position: relative;	
+	bottom:200px;
+	color: white;
+	text-align: right;	
+	}
 }
 
 /*mobile*/
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 420px)
 {
-
+	.banner{
+	position: relative;
+	top: 10px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	}
 }
