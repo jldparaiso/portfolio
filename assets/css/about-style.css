@@ -1,0 +1,47 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*body{
+	background-color: black;
+}*/
+
+
+/*header*/
+
+.head-logo{
+	width:150px;
+	height: 45px;
+
+}
+
+.nav-container{
+	background-color: white;
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.nav-link{
+	color: gray;
+	font-weight: bold;
+}
+
+/*page*/
+
+#about{
+	background-image: url(../images/bg-img1.jpg);
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+
+.media{
+	position: relative;
+	top:200px;
+}
+
+h1{
+	font-size: 4em;
+}
+
