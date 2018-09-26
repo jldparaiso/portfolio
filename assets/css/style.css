@@ -7,6 +7,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	position: relative;
+	background-color: black;
 }
 
 
@@ -125,35 +126,137 @@ a{
 	color: white;
 }
 
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.fa-facebook-square:hover{
+	color: blue;
+}
+
+.fa-github-square:hover{
+	color: gray;
+}
+
+.fa-gitlab:hover{
+	color: orange;
+}
+
 i{
 	text-decoration: none;
 	color: white;
 }
 
-
-
-/*/*tablet*/
-/*@media only screen and (min-width: 421px) and 
-(max-width: 960px)
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 950px) 
 {
-	.banner{
-	position: relative;	
-	bottom:200px;
-	color: white;
-	text-align: right;	
+	.media-body h2{
+	font-size: 2em;
+	font-weight: bold;
 	}
-<<<<<<< HEAD
-}*/
+
+	.media-body p{
+	font-size: 1em;
+	}	
+	
+	#about-tags{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	}
+
+	#about-head{
+		font-size: 1em;
+	}
+
+	#about-list{
+		font-size:0.7em;
+	}
+
+	#projects-tags{
+	font-size: 2em;
+	font-weight: bold;
+	}
+
+	.card-title{
+		font-size: 1em;
+	}
+
+	.card-text{
+		font-size: 0.5em;
+	}
+
+	.btn{
+		font-size:0.8em;
+	}
 
 
-/*mobile*/
-/*@media only screen and (max-width: 420px)
+	#contact-photo{
+	height: 80px;
+	width: 90px;
+	margin-top: 1px;
+	}
+
+	#contact-body h4{
+	font-size: 2em;
+	}	
+
+	#contact-body p{
+	font-size: 0.7em;
+	color: white;
+	}
+
+}
+
+/*tablet*/
+
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 960px)
 {
-	.banner{
-	position: relative;
-	top: 10px;
-	color: white;
-	text-align: center;
-	padding: 20px;
+	.media-body h2{
+	font-size: 2.5em;
+	font-weight: bold;
 	}
-}*/
+
+	.media-body p{
+	font-size: 1.5em;
+	}
+
+	#about-tags{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	}
+
+	#about-head{
+		font-size: 1em;
+	}
+
+	#about-list{
+		font-size:0.6em;
+	}
+
+	#contact-photo{
+	height: 180px;
+	width: 190px;
+	}
+
+	#contact-body h4{
+	font-size: 2em;
+	}	
+
+	#contact-body p{
+	font-size: 1em;
+	color: white;
+	}
+
+
+
+
+}
+
+
